@@ -1,0 +1,47 @@
+CELL PHONE
+<i class="fas fa-mobile-alt"></i>
+
+MAP MARKER
+<i class="fas fa-map-marker-alt"></i>
+
+GIT
+<i class="fab fa-github"></i>
+
+TWITTER
+<i class="fab fa-twitter"></i>
+
+EMAIL
+<i class="far fa-envelope"></i>
+
+LINKED IN
+<i class="fab fa-linkedin"></i>
+
+RESUME
+<i class="fas fa-file"></i>
+
+BRONCOS ORANGE
+#FB4F14
+
+BRONCOS BLUE
+#002244
+
+ROCKS PURPLE
+#33006F
+
+ROCKS SILVER
+#C4CED4
+
+codecademy
+#1F3E53
+
+dataschool
+#27368C
+
+datacamp
+#03E85F
+
+udemy
+#E34F4F
+
+linkedin
+#2692C9

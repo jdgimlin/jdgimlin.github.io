@@ -4,15 +4,485 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" href="./resources/style.css">
-  <title>My github Pages Site</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./resources/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./resources/images/favicon.ico" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/d81250fe38.js" crossorigin="anonymous"></script>
+  <title>John Gimlin</title>
 </head>
 <body>
-  <h1>My Portfolio Site</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, reprehenderit laboriosam rem assumenda et delectus iste nobis odit. Quo labore asperiores aliquid at sint. Cumque, voluptatibus. Culpa dolorum deserunt atque.</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, reprehenderit laboriosam rem assumenda et delectus iste nobis odit. Quo labore asperiores aliquid at sint. Cumque, voluptatibus. Culpa dolorum deserunt atque.</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, reprehenderit laboriosam rem assumenda et delectus iste nobis odit. Quo labore asperiores aliquid at sint. Cumque, voluptatibus. Culpa dolorum deserunt atque.</p>
 
-  
+  <!-- Navbar -->
+  <nav class="sticky-top navbar navbar-expand-lg navbar-light" style="background-color: white;">
+    <div class="container-fluid">
+      <a id="logo" href="#" class="navbar-brand">John Gimlin</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#accomplishments">Accomplishments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Portrait -->
+  <div class="container-fluid py-5">
+    <div class="row">
+      <div class="col-sm-4 text-center">
+        <img src="./resources/images/tee_shirt_200.jpg" class="img-fluid rounded-circle border border-secondary border-1" alt="John Gimlin">  
+        <h4 class="fs-2 fw-normal pt-2">John Gimlin</h4>
+        <h5 class="text-muted">Data/Business Analyst</h5>
+        <h5 class="text-muted">Denver, Colorado</h5>
+        <p></p>
+      
+      <!-- Icons -->
+        <a class="icon" href="mailto:jdgimlin@gmail.com" title="email me">
+          <span style="font-size: 2rem; color: #33006F;">
+            <i class="far fa-envelope" href="www.google.com"></i>
+          </span>
+        </a>
+        <a class="icon" href="https://www.linkedin.com/in/johngimlin/" target="_blank" title="LinkedIn">
+          <span style="font-size: 2rem; color: #33006F;">
+            <i class="fab fa-linkedin"></i>
+          </span>
+        </a>
+        <a class="icon" href="https://github.com/jdg0711" target="_blank" title="Github">
+          <span style="font-size: 2rem;">
+            <span style="color: #33006F;">
+              <i class="fab fa-github"></i>
+            </span>
+          </span>
+        </a>
+        <a class="icon" href="#" title="Link to Resume">
+          <span style="font-size: 2rem;">
+            <span style="color: #33006F;">
+              <i class="fas fa-file"></i>
+            </span>
+          </span>
+        </a>
+      </div>
+
+      <!-- About Me -->
+      <div class="col-sm-8">
+        <h1>About Me</h1>
+        <p>I've been learning all I can about data analysis, data visualization, and data science for the last year-plus. I’ve developed a passion for these fields and now I’m on a mission to turn that passion into a career.</p>
+        <p>I’ve always had a head for numbers and been good with a spreadsheet, but now I can incorporate these newly learned skills and take working with data to another level. I know my eye for detail and the need to strive for 100% accuracy will bring a lot of value to a future employer.</p>
+        <div class="row">
+          <div class="col-sm-6 pt-3">
+            <h4>Programming Languages</h4>
+            <ul>
+              <li>Python</li>
+              <li>R</li>
+              <li>SQL</li>
+              <li>HTML5</li>
+            </ul>
+            <h5>Language Libraries</h5>
+            <ul style="font-size: 0.9rem;">
+              <li>pandas</li>
+              <li>matplotlib</li>
+              <li>seaborn</li>
+              <li>NumPy</li>
+              <li>scikit-learn</li>
+              <li>readr</li>
+              <li>dplyr</li>
+              <li>ggplot2</li>
+            </ul>
+          </div>
+          <div class="col-sm-6 pt-3">
+            <h4>Platforms / Software</h4>
+            <ul>
+              <li>Jupyter Notebook</li>
+              <li>RStudio</li>
+              <li>Tableau</li>
+              <li>PostgreSQL</li>
+              <li>Git</li>
+              <li>Visual Studio Code</li>
+              <li>Microsoft Office</li>
+              <li>Google Workspace</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Education Container -->
+  <div id="education" class="container-fluid" style="background-color: gainsboro;">
+    <div class="row py-4">
+      <div class="col-sm-4">
+        <h1>Data</h1>
+        <h1>Education &</h1>
+        <h1>Experience</h1>
+      </div>
+      <div class="col-sm-4">
+        <div class="card w-75 mb-5">
+          <img src="./resources/images/codecademy_blue.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title text-muted">Codecademy</h5>
+            <p class="card-text fw-lighter mb-0">Data Analysis Career Path</p>
+            <p class="text-muted" style="font-size: 0.75rem;">April 2020 - September 2020</p>
+            <ul>
+              <li>28 Weeks</li>
+              <li>17 Courses</li>
+              <li>282 Lessons</li>
+              <li>60 Projects</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card w-75 mb-5">
+          <img src="./resources/images/datacamp_green.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title text-muted">DataCamp</h5>
+            <p class="card-text fw-lighter">Individual Courses Completed</p>
+            <ul>
+              <li>Introduction to R</li>
+              <li>Intermediate R</li>
+              <li>Analyzing Police Activity with pandas</li>
+              <li>Intorduction to Data Visualizations in Python</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card w-75 mb-5">
+          <img src="./resources/images/udemy_red.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title text-muted">Udemy</h5>
+            <p class="card-text fw-lighter">Individual Courses Completed</p>
+            <ul>
+              <li>Tableau 2021 Certified Associate Prep Course</li>
+              <li>The Complete SQL Bootcamp 2021</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card w-75 mb-5">
+          <img src="./resources/images/codecademy_blue.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title text-muted">Codecademy</h5>
+            <p class="card-text fw-lighter mb-0">Data Scientist Career Path</p>
+            <p class="text-muted" style="font-size: 0.75rem;">September 2020 - April 2021</p>
+            <ul>
+              <li>35 Weeks</li>
+              <li>21 Courses</li>
+              <li>369 Lessons</li>
+              <li>71 Projects</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card w-75 mb-5">
+          <img src="./resources/images/dataschool_blue.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title text-muted">DataSchool</h5>
+            <p class="card-text fw-lighter">Introduction to Machine Learning with scikit-learn</p>
+            <ul>
+              <li>14 Topics</li>
+              <li>10 Notebooks</li>
+              <li>Interactive quizzes</li>
+              <li>80+ resources</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card w-75">
+          <img src="./resources/images/linkedin_blue.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title text-muted">LinkedIn Learning</h5>
+            <p class="card-text fw-lighter">Individual Courses Completed</p>
+            <ul>
+              <li>22 Courses Total</li>
+              <li>Excel / Access / PowerPoint / Power BI / Tableau</li>
+              <li>Business Analytics / Statistics / Data Visualization</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Accomplishments Container -->
+  <div id="accomplishments" class="container-fluid" style="background-color: whitesmoke;">
+    <div class="row py-4" style="height: 600px; overflow-y: scroll;">
+      <div class="col-sm-4">
+        <h1>Accomplishments</h1>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Data Analyst Career Path</h4>
+          <p class="text-muted">Codecademy</p>
+          <a class="cert" href="./resources/certs/Career Path Data Analyst.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Analyze Data with Python Skill Path</h4>
+          <p class="text-muted">Codecademy</p>
+          <a class="cert" href="./resources/certs/Skill Path Analyze Data Python.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Analyze Data with R Skill Path</h4>
+          <p class="text-muted">Codecademy</p>
+          <a class="cert" href="./resources/certs/Skill Path Analyze Data R.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Analyze Data with SQL Skill Path</h4>
+          <p class="text-muted">Codecademy</p>
+          <a class="cert" href="./resources/certs/Skill Path Analyze Data SQL.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Analyze Financial Data with Python Skill Path</h4>
+          <p class="text-muted">Codecademy</p>
+          <a class="cert" href="./resources/certs/Skill Path Analyze Financial Data Python.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Tableau 2020: Certified Associate Certification</h4>
+          <p class="text-muted">Udemy</p>
+          <a class="cert" href="./resources/certs/Udemy_Tableau_Cert.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Visualize Data with Python Skill Path</h4>
+          <p class="text-muted">Codecademy</p>
+          <a class="cert" href="./resources/certs/Skill Path Viz Data with Python.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Data Visualization in Python</h4>
+          <p class="text-muted">DataCamp</p>
+          <a class="cert" href="./resources/certs/COC_data_viz_pyhon.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Analyzing Police Activity with pandas</h4>
+          <p class="text-muted">DataCamp</p>
+          <a class="cert" href="./resources/certs/COC_police_activity.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Data Fluency: Exploring and Describing Data</h4>
+          <p class="text-muted">LinkedIn Learning</p>
+          <a class="cert" href="./resources/certs/LI_certs/COC_Data Fluency Exploring and Describing Data.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Data Visualization for Data Analysis
+            and Analytics</h4>
+          <p class="text-muted">LinkedIn Learning</p>
+          <a class="cert" href="./resources/certs/LI_certs/COC_Data Visualization for Data Analysis.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Power BI Essential Training</h4>
+          <p class="text-muted">LinkedIn Learning</p>
+          <a class="cert" href="./resources/certs/LI_certs/COC_Power BI Essential Training.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Tableau Essential Training (2020.1)</h4>
+          <p class="text-muted">LinkedIn Learning</p>
+          <a class="cert" href="./resources/certs/LI_certs/COC_Tableau Essential Training 2020.1.pdf" target="_blank">View Certificate</a>
+        </div>
+        
+      </div>
+      <div class="col-sm-4">
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Data Scientist Career Path</h4>
+          <p class="text-muted">Codecademy</p>
+          <a class="cert" href="./resources/certs/Career Path Data Scientist.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Build a Machine-Learning Model with Python Skill Path</h4>
+          <p class="text-muted">Codecademy</p>
+          <a class="cert" href="./resources/certs/Skill Path ML Model Python.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Introduction to Machine Learning with scikit-learn</h4>
+          <p class="text-muted">DataSchool</p>
+          <a class="cert" href="./resources/certs/COC_Intro_machine_learning.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Master Statistics with Python Skill Path</h4>
+          <p class="text-muted">Codecademy</p>
+          <a class="cert" href="./resources/certs/Skill Path Master Stats wtih Python.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Design Databases with PostgreSQL Skill Path</h4>
+          <p class="text-muted">Codecademy</p>
+          <a class="cert" href="./resources/certs/Skill Path Database Design.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">The Complete SQL Bootcamp 2021</h4>
+          <p class="text-muted">Udemy</p>
+          <a class="cert" href="./resources/certs/Udemy_SQL_Cert.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Build A Website with HTML, CSS, & Github Skill Path</h4>
+          <p class="text-muted">Codecademy</p>
+          <a class="cert" href="./resources/certs/Skill Path Build A Website.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Introduction to R</h4>
+          <p class="text-muted">DataCamp</p>
+          <a class="cert" href="./resources/certs/COC_R_intro.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Intermediate R</h4>
+          <p class="text-muted">DataCamp</p>
+          <a class="cert" href="./resources/certs/COC_R_intermediate.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Data Science Foundations: Fundamentals</h4>
+          <p class="text-muted">LinkedIn Learning</p>
+          <a class="cert" href="./resources/certs/LI_certs/COC_Data Science Foundations.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Statistics Foundations: 1</h4>
+          <p class="text-muted">LinkedIn Learning</p>
+          <a class="cert" href="./resources/certs/LI_certs/COC_Statistics Foundations 1.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Statistics Foundations: 2</h4>
+          <p class="text-muted">LinkedIn Learning</p>
+          <a class="cert" href="./resources/certs/LI_certs/COC_Statistics Foundations 2.pdf" target="_blank">View Certificate</a>
+        </div>
+        <div class="shadow p-3 mb-3 bg-body rounded">
+          <h4 class="fw-bolder muted">Google IT Support Professional Certificate</h4>
+          <p class="text-muted">coursera / Google</p>
+          <a class="cert" href="./resources/certs/Coursera_Google_IT_Pro_Cert.pdf" target="_blank">View Certificate</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects Container -->
+  <div id="projects" class="container-fluid" style="background-color: gainsboro;">
+    <div class="row py-4">
+      <div class="col-sm-4">
+        <h1>Projects</h1>
+      </div>
+      <!-- Column #1 -->
+      <div class="col-sm-4">
+        <div class="card w-75" >
+          <img src="./resources/images/bicycles.jpg" class="card-img-top" alt="bicycles">
+          <p class="credit">Photo by <a class="caption" href="https://unsplash.com/@chrislawton?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Chris Lawton</a> on <a class="caption" href="https://unsplash.com/s/photos/bicycles?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+          <div class="card-body">
+            <h5 class="card-title">Analyzing Bike Sales</h5>
+            <p class="card-text">Using a kaggle dataset with bicycle sales from around the world, use python to perform various sales analyses.</p>
+            <a href="https://github.com/jdg0711/analyzing_bike_sales" target="_blank" class="btn" style="background-color: #33006F; color: white;">View Project</a>
+          </div>
+        </div>
+        <div class="card w-75 mt-3">
+          <img src="./resources/images/robots.jpg" class="card-img-top" alt="robots">
+          <p class="credit">Photo by <a class="caption" href="https://unsplash.com/@brett_jordan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brett Jordan</a> on <a class="caption" href="https://unsplash.com/s/photos/robot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+          <div class="card-body">
+            <h5 class="card-title">Matchmaking Predictions</h5>
+            <p class="card-text">Use machine learning techniques to test predictions made from online dating profile data.</p>
+            <a href="https://github.com/jdg0711/machine_learning_capstone" target="_blank" class="btn" style="background-color: #33006F; color: white;">View Project</a>
+          </div>
+        </div>
+        <div class="card w-75 mt-3">
+          <img src="./resources/images/scientist.jpg" class="card-img-top" alt="scientist">
+          <p class="credit">Photo by <a class="caption" href="https://unsplash.com/@nci?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">National Cancer Institute</a> on <a class="caption" href="https://unsplash.com/s/photos/medical-research?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+          <div class="card-body">
+            <h5 class="card-title">Analyzing Heart Disease</h5>
+            <p class="card-text">Investigate data from a sample of patients who were evaluated for heart disease at the Cleveland Clinic Foundation.</p>
+            <a href="https://github.com/jdg0711/analyzing_heart_disease" target="_blank" class="btn" style="background-color: #33006F; color: white;">View Project</a>
+          </div>
+        </div>
+      </div>
+      <!-- Column #2 -->
+      <div class="col-sm-4">
+        <div class="card w-75" >
+          <img src="./resources/images/nature.jpg" class="card-img-top" alt="nature">
+          <p class="credit">Photo by <a class="caption" href="https://unsplash.com/@gerandeklerk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Geran de Klerk</a> on <a class="caption" href="https://unsplash.com/s/photos/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+          <div class="card-body">
+            <h5 class="card-title">Analyzing Biodiversity</h5>
+            <p class="card-text">Interpret, analyze and plot data from the National Parks Service about endangered species in different parks.</p>
+            <a href="https://github.com/jdg0711/analyzing_biodiversity" target="_blank" class="btn" style="background-color: #33006F; color: white;">View Project</a>
+          </div>
+        </div>
+        <div class="card w-75 mt-3">
+          <img src="./resources/images/graph.jpg" class="card-img-top" alt="graph">
+          <p class="credit">Photo by <a class="caption" href="https://unsplash.com/@isaacmsmith?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Isaac Smith</a> on <a class="caption" href="https://unsplash.com/s/photos/graphs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+          <div class="card-body">
+            <h5 class="card-title">Visualizing Data with Python</h5>
+            <p class="card-text">With matplotlib and seaborn libraries, create a wide range of graphs to visualize data. </p>
+            <a href="https://github.com/jdg0711/visualizing_data_python" target="_blank" class="btn" style="background-color: #33006F; color: white;">View Project</a>
+          </div>
+        </div>
+        <div class="card w-75 mt-3">
+          <img src="./resources/images/laptop.jpg" class="card-img-top" alt="laptop">
+          <p class="credit">Photo by <a class="caption" href="https://unsplash.com/@kmuza?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Carlos Muza</a> on <a class="caption" href="https://unsplash.com/s/photos/dashboard?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+          <div class="card-body">
+            <h5 class="card-title">Colorado COVID-19 Dashboard</h5>
+            <p class="card-text">Utilize Tableau to graphically display data straight from the CO Dept. of Public Health & Environment.</p>
+            <a href="https://public.tableau.com/app/profile/john.gimlin/viz/COCOVIDCaseStats/Colorado" target="_blank" class="btn" style="background-color: #33006F; color: white;">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Container -->
+  <div id="contact" class="container-fluid" style="background-color: whitesmoke;">
+    <div class="row py-4">
+      <div class="col-sm-4">
+        <h1>Contact</h1>
+        <ul class="no-bullets">
+          <li>
+            <span style="font-size: 2rem; color: #33006F;">
+              <i class="fas fa-mobile-alt"></i>
+            </span>
+            <a href="tel:17202202492">1-720-220-2492</a>
+          </li>
+          <li>
+            <span style="font-size: 2rem; color: #33006F;">
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            <a href="https://maps.google.com/maps?ll=39.720036,-105.016653&z=12&t=m&hl=en&gl=US&mapclient=embed" target="_blank">Denver, CO 80227</a>
+          </li>
+        </ul>
+        <div class="ratio ratio-4x3">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d49101.9683373053!2d-105.01665264101302!3d39.72003627918872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1622130155672!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+
+      <div class="col-sm-8 px-4">
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mleabgnj" method="post">
+          <fieldset id="fs-frm-inputs">
+            <label for="full-name">Full Name</label>
+            <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+            <label for="email-address">Email Address</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="Email" required="">
+            <label for="message">Message</label>
+            <textarea rows="5" name="message" id="message" placeholder="Message" required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          </fieldset>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="footer mt-auto py-3" style="background-color: #C4CED4;">
+    <div class="container text-center">
+      <span style="color: #33006F;">&copy; John Gimlin 2021</span>
+    </div>
+  </footer>  
+
+  <!-- Script for Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
 </body>
 </html>
