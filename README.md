@@ -1,2 +1,2 @@
-# jdg0711.github.io
+# jdgimlin.github.io
 My github pages repo
