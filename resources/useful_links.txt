@@ -31,6 +31,9 @@ ROCKS PURPLE
 ROCKS SILVER
 #C4CED4
 
+google
+#4285F7
+
 codecademy
 #1F3E53
 
